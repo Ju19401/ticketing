@@ -1,0 +1,2 @@
+class Alltickets < ApplicationRecord
+end
