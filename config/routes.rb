@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   root to: "pages#home"
   get "about", to: "pages#about"
-  get "alltickets", to 
+  get "alltickets", to: "alltickets#about"
 end
